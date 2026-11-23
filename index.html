@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>런코 Runco</title>
+<meta name="description" content="갤럭시 폰과 워치를 위한 러닝 코치 앱 런코(Runco)">
+<style>
+  :root { --bg:#FBFAFC; --panel:#ffffff; --ink:#13202F; --sub:#5E6B7B; --line:#D3DCE6; --brand:#2C99D6; --point:#EB2F33; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#091221; --panel:#111C2F; --ink:#EEF2F8; --sub:#8FA0B6; --line:#2B3B55; --brand:#329DD2; --point:#FF4C2B; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.7 -apple-system, "Noto Sans KR", "Malgun Gothic", sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:34px; margin:0; letter-spacing:-0.5px; }
+  h1 span { color:var(--brand); }
+  .lead { color:var(--sub); margin:8px 0 32px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:20px 20px 12px; margin:16px 0; }
+  h2 { font-size:18px; margin:0 0 8px; color:var(--brand); }
+  ul { padding-left:20px; margin:0 0 8px; } li { margin:4px 0; }
+  a { color:var(--brand); }
+  .links a { display:inline-block; margin:0 16px 8px 0; font-weight:600; }
+  footer { color:var(--sub); font-size:14px; margin-top:40px; border-top:1px solid var(--line); padding-top:16px; }
+  .todo { background:#fff3cd; color:#664d03; padding:0 4px; border-radius:4px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>런코 <span>Runco</span></h1>
+  <p class="lead">갤럭시 폰과 갤럭시 워치를 위한 러닝 코치 앱 · Running coach for Galaxy phone and watch</p>
+
+  <div class="card">
+    <h2>무엇을 하나요</h2>
+    <ul>
+      <li>삼성 헬스에 기록된 달리기를 불러와 페이스·심박·경로를 보여 주고 분석해요.</li>
+      <li>기록으로 러닝 능력(VDOT)과 개인 심박 구간을 계산해요.</li>
+      <li>운동 가능한 요일과 강도에 맞춰 주간 훈련 계획을 만들고, 실제 기록과 비교해요.</li>
+      <li>워치 앱이 달리는 동안 목표 페이스보다 빠르거나 느리면 알려 줘요.</li>
+      <li>원하면 AI 코치에게 질문하고, 주변 달리기 코스를 추천받을 수 있어요.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>개인정보</h2>
+    <ul>
+      <li>런코는 운영자 서버가 없어요. 기록은 폰과 워치 안에만 저장돼요.</li>
+      <li>삼성 헬스 데이터는 읽기만 하고, 광고에 쓰거나 판매하지 않아요.</li>
+      <li>AI 기능은 따로 동의하고 본인의 Gemini 키를 넣었을 때만 써요.</li>
+    </ul>
+    <p class="links"><a href="privacy.html">개인정보 처리방침 · Privacy Policy</a></p>
+  </div>
+
+  <div class="card">
+    <h2>About (English)</h2>
+    <p>Runco is a free running coach app for Galaxy phone and Galaxy Watch users, made by an individual developer in Korea. It reads the user's own runs from Samsung Health (read-only), analyzes pace, heart rate and route, estimates running fitness and personal heart-rate zones, and builds weekly training plans. All data stays on the user's device; there is no developer server.</p>
+  </div>
+
+  <footer>
+    문의 · Contact: <a href="mailto:tjr532@gmail.com">tjr532@gmail.com</a><br>
+    코스 데이터 © OpenStreetMap contributors (ODbL)
+  </footer>
+</main>
+</body>
+</html>
